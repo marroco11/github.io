@@ -1,92 +1,78 @@
+// IIFE
+
 "use strict";
 
-//IIFE - Immediately Invoked Function Expression
+(function(){
 
-(function() {
+    function DisplayHomePage(){
+        console.log("Calling DisplayHomePage()...");
 
+        let aboutUsBtn = document.getElementById("AboutUsBtn");
+        aboutUsBtn.addEventListener("click", function(){
+            location.href = "about.html";
+        })
 
-    function DisplayHomePage() {
-            console.log("calling DisplayHomePage()...");
+        let mainContent = document.getElementsByTagName("main")[0];
 
-            let aboutUsBtn = document.getElementById("AboutUsBtn");
-            aboutUsBtn.addEventListener("click", function() {
-                location.href = "about.html";
-            })
+        let mainParagraph = document.createElement("p");
+        mainParagraph.setAttribute("id","mainParagraph");
+        mainParagraph.setAttribute("class","mt-3");
 
-            let MainContent = document.getElementsByTagName("main")[0];
+        mainParagraph.textContent = "This is the main paragraph.";
+        mainContent.appendChild(mainParagraph);
 
-            let MainParagraph = document.createElement("p");
-            MainParagraph.setAttribute("id", "mainParagraph");
-            MainParagraph.setAttribute("class", "mt-3");
+        let FirstString = "This is";
+        let SecondString = `${FirstString} the main paragraph.`;
+        mainParagraph.textContent = SecondString;
+        mainContent.appendChild(mainParagraph);
 
-            MainParagraph.textContent = "This is the main paragraph";
-            MainContent.appendChild(MainParagraph);
+        let DocumentBody = document.body;
+        let Article = document.createElement("article");
+        let ArticleParagraph = `<p id="ArticleParagraph" class="mt-3">This is the article paragraph.</p>`;
 
-            let FirstString = "This is";
-            let SecondString = `${FirstString} the Main Paragraph`;
-            MainParagraph.textContent = SecondString;
-            MainContent.appendChild(MainParagraph);
-
-            let DocumentBody = document.body;
-            let Article = document.createElement("article");
-            let ArticleParagraph = `<p id ="ArticleParagraph" class= "mt-3">This is my article paragraph</p>`;
-
-            Article.innerHTML = ArticleParagraph;
-            ArticleParagraph.setAttribute("class", "container");
-
-            DocumentBody.appendChild(Article);
+        ArticleParagraph.setAttribute("class","container");
+        Article.innerHTML = ArticleParagraph;
+        DocumentBody.appendChild(Article);
     }
 
-   function DisplayAboutPage() {
-        console.log("calling DisplayAboutPage()...");
-   }
+    function DisplayAboutPage(){
+        console.log("Calling DisplayAbout()...");
 
-   function DisplayProductsPage () {
-        console.log("calling DisplayProductsPage()...");
-   }
-
-   function DisplayServicesPage(){
-        console.log("calling DisplayServicesPage()...");
-   }
-
-   function DisplayContactsPage(){
-        console.log("calling DisplayServicesPage()...");
     }
 
-    function Start() {
+    function DisplayProductPage(){
+        console.log("Calling DisplayProduct()...");
+    }
+
+    function DisplayServicesPage(){
+        console.log("Calling DisplayServices()...");
+    }
+
+    function DisplayContactPage(){
+        console.log("Calling DisplayContact()...");
+    }
+
+    function Start()
+    {
         console.log("Starting...");
 
-        switch(document.title){
-                case "Home":
-
+        switch (document.title){
+            case "Home":
                 DisplayHomePage();
-
-                    break;
-
-                case "About":
-                    DisplayAboutPage();
-
-                    break;
-
-                case "Products":
-
-                    DisplayProductsPage();
-
-                    break;
-
-                case "Services":
-
-                    DisplayServicesPage();
-                    break;
-
-                case "Contacts":
-
-                    DisplayContactsPage();
-
-                    break;
-
+                break;
+            case "About":
+                DisplayAboutPage();
+                break;
+            case "Products":
+                DisplayProductPage();
+                break;
+            case "Services":
+                DisplayServicesPage();
+                break;
+            case "Contact":
+                DisplayContactPage();
+                break;
         }
-
     }
-    window.addEventListener("Load",Start);
-})()
+    window.addEventListener("load", Start);
+})();
