@@ -1,0 +1,24 @@
+{
+  "users" : [
+
+    {
+      "DisplayName" : "Optimus Prime",
+      "EmailAddress" : "OPrime@dmail.ca",
+      "UserName" : "OPrime11",
+      "Password" : "12345"
+    },
+    {
+      "DisplayName" : "Fabian Narvaez",
+      "EmailAddress" : "OkeiGuys@dcmail.ca",
+      "UserName" : "OkeiGuyzzz",
+      "Password" : "Swag123"
+    },
+
+    {
+      "DisplayName" : "Bumble Bee Boss",
+      "EmailAddress" : "IamBoss@dmail.ca",
+      "UserName" : "bossbee",
+      "Password" : "buzzbuzz"
+    }
+  ]
+}
