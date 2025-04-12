@@ -5,7 +5,7 @@
 import express, { Request, Response } from "express";
 import path from 'path';
 import {fileURLToPath} from 'url';
-import contactRoutes from "./contactRoutes";
+import contactRoutes from "./contactRoutes.js";
 
 // Convert path to __dirname equivalent
 
