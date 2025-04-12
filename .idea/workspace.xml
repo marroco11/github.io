@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73189c96-687c-4787-9ebf-cd8a17a620ed" name="Changes" comment="ICE 4 Stuff">
-      <change beforePath="$PROJECT_DIR$/Scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marroco11.github.io/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marroco11.github.io/.idea/marroco11.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marroco11.github.io/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/marroco11.github.io/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744498315949</updated>
-      <workItem from="1744498319228" duration="1030000" />
+      <workItem from="1744498319228" duration="2469000" />
     </task>
     <servers />
   </component>

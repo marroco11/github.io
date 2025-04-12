@@ -19,10 +19,10 @@
     "noImplicitReturns": true,
     "resolveJsonModule": true,
     "types": ["node"],
-    "rootDir": "./src",  // Changed from invalid "root"
-    "outDir": "./dist",  // Changed from invalid "out"
-    "baseUrl": "./src",  // Added for better module resolution
-    "paths": {           // Added for path aliases
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
       "@/*": ["./*"]
     }
   },
