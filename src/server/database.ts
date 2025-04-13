@@ -10,7 +10,7 @@ const DB_NAME = process.env.MONGO_DB_NAME!;
 const CLUSTER = process.env.MONGO_CLUSTER!;
 
 //??
-const MONGODB_URI = `mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTER}/${DB_NAME}?retryWrites=true&w=majority`;
+const MONGODB_URI = `mongodb+srv://${USER_NAME}:${PASSWORD}@${CLUSTER}/${DB_NAME}?retryWrites=true&w=majority&appName=Cluster0`;
 
 class Database {
     private static instance: Database;
