@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 //Initialize Express app
 
 const app = express();
-const port = process.env.PORT || 3000; // give me the port that the environment gives me or use port 3000
+const port = process.env.PORT || 10000; // give me the port that the environment gives me or use port 3000
 
 async function startServer(){
     try {
