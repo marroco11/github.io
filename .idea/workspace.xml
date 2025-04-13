@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="73189c96-687c-4787-9ebf-cd8a17a620ed" name="Changes" comment="ICE 4 Stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/database.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/database.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744498315949</updated>
-      <workItem from="1744498319228" duration="4274000" />
+      <workItem from="1744498319228" duration="4801000" />
     </task>
     <servers />
   </component>

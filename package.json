@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server/server.js",
+    "start": "node server.js",
     "dev": "tsc && node dist/server/server.js",
     "clean": "rimraf dist",
     "clean-build": "npm run clean && npm run build",
